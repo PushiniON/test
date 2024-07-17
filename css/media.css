@@ -1,0 +1,33 @@
+/* Mobile */
+@media screen and (width <= 599px) {
+	#top {
+		flex-wrap: wrap;
+	}
+
+	img {
+		height: auto;
+		width: 100%;
+	}
+
+	section > iframe {
+		width: 100%;
+	}
+	details {
+		width: 100%;
+		padding: 0 30px;
+	}
+
+	form {
+		width: 100%;
+		padding: 10px;
+	}
+
+	fieldset {
+		width: 100%;
+	}
+
+	fieldset > div {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
